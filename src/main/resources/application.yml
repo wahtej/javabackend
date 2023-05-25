@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: Welcome!01
+    password: 1234
     url: jdbc:mysql://10.244.1.4:3306/sampledata
-    username: admin_hosp_mgnmt
+    username: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
