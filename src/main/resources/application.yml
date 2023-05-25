@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: Welcome!01
-    url: jdbc:mysql://mysql-service:3306/online-hosp-mngmt
+    url: jdbc:mysql://online-hosp-mngmt.mysql.database.azure.com:3306/online-hosp-mngmt
     username: admin_hosp_mgnmt
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
@@ -29,4 +29,4 @@ jwt:
   secret: screatKey123
 #  for frontend domain
 domain:
-  name: http://frontend-service:3000/
+  name: http://localhost:3000/
