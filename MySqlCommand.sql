@@ -1,4 +1,4 @@
-
+CREATE DATABASE `online-hosp-mngmt`
 -- For Creating table in database:
 CREATE TABLE IF NOT EXISTS `admin` (
   `admin_id` int(11) NOT NULL,
