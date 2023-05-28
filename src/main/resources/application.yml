@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 1234
-    url: jdbc:mysql://10.103.107.133:32555/mydatabase
+    url: jdbc:mysql://13.126.110.176:32555/mydatabase
     username: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
