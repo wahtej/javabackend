@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 1234
-    url: jdbc:mysql://mysqlservice:3306/accounts?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
-    username: root
+    jdbc.driver-class-name=com.mysql.cj.jdbc.Driver
+    jdbc.password=1234
+    jdbc.url=jdbc:mysql://mysqlservice:3306/accounts?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    jdbc.username=root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
