@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 1234
-    url: jdbc:mysql://mysqlservice:3306/mydatabase
+    url: jdbc:mysql://mysqlservice.default.svc.cluster.local:3306/mydatabase
     username: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
@@ -29,4 +29,4 @@ jwt:
   secret: screatKey123
 #  for frontend domain
 domain:
-  name: http://frontendservice:31501
+  name: http://frontendservice.default.svc.cluster.local:31501
