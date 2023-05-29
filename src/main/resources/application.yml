@@ -29,4 +29,4 @@ jwt:
   secret: screatKey123
 #  for frontend domain
 domain:
-  name: *
+  name: http://13.126.135.9:31501/
